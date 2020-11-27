@@ -15,9 +15,9 @@ composer install
 
 ## Goals
 
-The goal of this dojo is to simulate a cash machine.
+The goal of this dojo is to simulate a cash machine (ATM).
 
-We're assuming that we are dealing with euros so the possible bills the machine can contains and delivers are :
+We're assuming that we are dealing with euros so the possible bills the machine can contain and deliver are :
 
 - 500
 - 200
