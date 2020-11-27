@@ -29,7 +29,7 @@ We're assuming that we are dealing with euros so the possible bills the machine 
 
 ### Step 1
 
-Define a CashMachine class in the src/CashMachine.php file.
+Define a \CashMachine class in the src/CashMachine.php file.
 
 ### Step 2
 
@@ -89,3 +89,5 @@ You can run some predefined tests on your function using
 ```bash
 vendor/bin/phpunit test
 ```
+
+The predefined tests can function one step at a time, but as step 2 and 3 are interdependant - Each one is needed to test the other - some step 2 tests will occurs after the begining of step 3.
