@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 declare(strict_types=1);
 
@@ -197,7 +197,7 @@ final class CashMachineTest extends TestCase
         $this->assertSame(
             [500 => 0, 200 => 0, 100 => 0, 50 => 1, 20 => 0, 10 => 0, 5 => 0],
             $atm->getRemainingCash(),
-            "Wtihdrawing 50 from a machine with two should let one remain"
+            "Withdrawing 50 from a machine with two should let one remain"
         );
     }
 
@@ -349,7 +349,7 @@ final class CashMachineTest extends TestCase
         $this->assertSame(
             [500 => 0, 200 => 0, 100 => 99, 50 => 0, 20 => 0, 10 => 0, 5 => 0],
             $atm->getRemainingCash(),
-            "A machine with hindred 100s after a 123 withdraw should have ninety-nine 100s left"
+            "A machine with hundred 100s after a 123 withdraw should have ninety-nine 100s left"
         );
     }
 
@@ -398,5 +398,5 @@ final class CashMachineTest extends TestCase
             $atm->getRemainingCash(),
             "Withdrawing 40 from a machine with one 10 and one 5 should left the machine empty (0 of each bills)"
         );
-    }    
+    }
 }
